@@ -15,7 +15,7 @@
   nix.gc = {
     automatic = true;
     dates = "weekly";
-    options = "--delete-older-than 14d";
+    options = "--delete-older-than 30d";
   };
 
   # bootloader.
@@ -45,7 +45,7 @@
     settings = rec {
       initial_session = {
         command = "${pkgs.hyprland}/bin/Hyprland";
-	user = "goat";
+      	user = "goat";
       };
       default_session = initial_session;
     };
@@ -93,7 +93,11 @@
 
   # allow unfree packages
   nixpkgs.config.allowUnfree = true;
-  
+
+  # audio
+  hardware.pulseaudio.enable = true;
+  services.pipewire.enable = false;
+
   # services
   services.mullvad-vpn.enable = true;
   # usb
