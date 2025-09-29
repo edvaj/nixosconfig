@@ -2,6 +2,7 @@
 { # application pkgs
   environment.systemPackages = with pkgs; [
     kitty
+    alacritty
     # browsers
     librewolf
     mullvad-browser
@@ -39,5 +40,6 @@
     prismlauncher
     # ide 
     vscodium
+    processing
   ];
 }

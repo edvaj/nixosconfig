@@ -4,6 +4,7 @@
     home-manager
     vim
     neovim
+    micro
     tree
     lf
     htop
@@ -27,7 +28,11 @@
     # flash
     caligula
     # fetch
-    neofetch
+    fastfetch
     microfetch
+    # gtk
+    gtk3
+    # ss
+    hyprshot
   ];
 }

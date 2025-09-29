@@ -98,6 +98,9 @@
   hardware.pulseaudio.enable = true;
   services.pipewire.enable = false;
 
+  # graphics drivers
+  hardware.opengl.enable = true;
+
   # services
   services.mullvad-vpn.enable = true;
   # usb
