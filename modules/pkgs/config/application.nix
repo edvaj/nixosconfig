@@ -13,6 +13,7 @@
     keepassxc
     # chat
     signal-desktop
+    signal-cli
     discord
     # music
     strawberry

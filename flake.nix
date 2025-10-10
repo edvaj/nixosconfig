@@ -1,16 +1,19 @@
 {
-  description = "Nixos config flake";
+  description = "NixOS Config Flake";
 
   inputs = {
+    
     nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
-
+    
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
+
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs: {
+  outputs = { self, nixpkgs, home-manager,... }@inputs: {
+    
     nixosConfigurations.dragonfly = nixpkgs.lib.nixosSystem {
       specialArgs = { inherit inputs; };
       system = "x86_64-linux";
