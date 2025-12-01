@@ -7,6 +7,7 @@
     librewolf
     mullvad-browser
     firefox
+    ungoogled-chromium
     #
     xfce.thunar
     mullvad-vpn
@@ -39,6 +40,7 @@
     libreoffice
     # games
     prismlauncher
+    pokemmo-installer
     # ide 
     vscodium
     processing

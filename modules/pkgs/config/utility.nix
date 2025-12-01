@@ -2,7 +2,10 @@
 { # utility pkgs
   environment.systemPackages = with pkgs; [
     home-manager
+    # vim things
     vim
+    wl-clipboard
+    #
     micro
     tree
     lf
@@ -31,7 +34,8 @@
     microfetch
     # gtk
     gtk3
-    # ss
-    hyprshot
+    hyprshot # ss
+    figlet
+    toilet
   ];
 }
