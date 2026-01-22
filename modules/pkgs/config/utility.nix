@@ -6,6 +6,8 @@
     vim
     wl-clipboard
     #
+    usbutils
+    zip
     micro
     tree
     lf
@@ -21,7 +23,7 @@
     pipes-rs
     libinput
     cmatrix
-    spotdl
+    spotdl 
     unzip
     git
     icloudpd
@@ -37,5 +39,7 @@
     hyprshot # ss
     figlet
     toilet
+    # iphone
+    libimobiledevice
   ];
 }

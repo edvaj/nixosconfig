@@ -7,14 +7,13 @@
     librewolf
     mullvad-browser
     firefox
-    ungoogled-chromium
+    brave
     #
     xfce.thunar
     mullvad-vpn
     keepassxc
     # chat
     signal-desktop
-    signal-cli
     discord
     # music
     strawberry
@@ -39,10 +38,13 @@
     # file
     libreoffice
     # games
+    steam
     prismlauncher
     pokemmo-installer
     # ide 
     vscodium
     processing
+    # cam
+    droidcam
   ];
 }
