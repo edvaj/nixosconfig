@@ -44,6 +44,7 @@
     # ide 
     vscodium
     processing
+    jetbrains.idea-community
     # cam
     droidcam
   ];

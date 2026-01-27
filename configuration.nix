@@ -87,7 +87,7 @@
     users.users.goat = {
         isNormalUser = true;
         description = "goat";
-        extraGroups = [ "networkmanager" "wheel" "dialout"];
+        extraGroups = [ "networkmanager" "wheel" "dialout" "video"];
         packages = with pkgs; [];
     };
 
@@ -97,9 +97,12 @@
     # allow unfree packages
     nixpkgs.config.allowUnfree = true;
 
-    # audio
-    hardware.pulseaudio.enable = true;
-    services.pipewire.enable = false;
+    # pipewire, audio+cam
+    services.pipewire = {
+        enable = true;
+        alsa.enable = true;
+        pulse.enable = true;
+    };
 
     # graphics drivers
     hardware.graphics = {
