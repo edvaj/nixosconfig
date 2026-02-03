@@ -4,6 +4,6 @@
     # python
     python3
     # java
-    jdk24
+    jdk25
   ];
 }

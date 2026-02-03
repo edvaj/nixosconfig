@@ -3,7 +3,7 @@
   environment.systemPackages = with pkgs; [
     hyprland
     waybar
-    rofi-wayland
+    rofi
     dunst
     libnotify
     swww
