@@ -6,6 +6,7 @@
             ./modules/input/input.nix
             ./modules/pkgs/pkgs.nix
             ./modules/power/power.nix
+            ./modules/audio/audio.nix
     ];
 
     # optimisation
@@ -87,7 +88,7 @@
     users.users.goat = {
         isNormalUser = true;
         description = "goat";
-        extraGroups = [ "networkmanager" "wheel" "dialout" "video"];
+        extraGroups = [ "networkmanager" "wheel" "dialout" "video" "openrazer"];
         packages = with pkgs; [];
     };
 
@@ -96,13 +97,6 @@
 
     # allow unfree packages
     nixpkgs.config.allowUnfree = true;
-
-    # pipewire, audio+cam
-    services.pipewire = {
-        enable = true;
-        alsa.enable = true;
-        pulse.enable = true;
-    };
 
     # graphics drivers
     hardware.graphics = {

@@ -10,15 +10,20 @@
         brave
         ungoogled-chromium
         #
+        libqalculate
         thunar
         mullvad-vpn
         keepassxc
+        # razer
+        polychromatic
+        openrazer-daemon
         # chat
         signal-desktop
         discord
         # music
         strawberry
         spotify
+        cider
         # ai
         claude-code
         #

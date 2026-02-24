@@ -7,6 +7,7 @@
     wl-clipboard
     #
     usbutils
+    imagemagick
     zip
     micro
     tree
@@ -41,5 +42,6 @@
     toilet
     # iphone
     libimobiledevice
+    ifuse
   ];
 }
