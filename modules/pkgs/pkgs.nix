@@ -1,12 +1,12 @@
 { config, pkgs, ... }:
 { 
   imports = [
-    ./config/application.nix
-    ./config/env.nix
-    ./config/fonts.nix
-    ./config/theme.nix
-    ./config/ui.nix
-    ./config/utility.nix
-    ./config/unstableOverlay.nix
+    ./application.nix
+    ./env.nix
+    ./fonts.nix
+    ./theme.nix
+    ./ui.nix
+    ./utility.nix
+    ./unstableOverlay.nix
   ];
 }

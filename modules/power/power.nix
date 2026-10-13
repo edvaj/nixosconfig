@@ -1,6 +1,6 @@
 { config, pkgs, ... }:
 {
   imports = [
-    ./config/auto-cpufreq.nix
+    ./auto-cpufreq.nix
   ];
 }

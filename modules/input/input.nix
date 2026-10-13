@@ -1,6 +1,6 @@
 { config, pkgs, ... }:
 {
   imports = [ 
-#    ./config/keyd.nix
+#    ./keyd.nix
   ];
 } 
