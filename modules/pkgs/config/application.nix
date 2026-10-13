@@ -3,6 +3,7 @@
     environment.systemPackages = with pkgs; [
         kitty
         alacritty
+        ghostty
         # browsers
         librewolf
         mullvad-browser
@@ -10,20 +11,22 @@
         brave
         ungoogled-chromium
         #
+        obs-studio
+        lukesmithxyz-bible-kjv
         libqalculate
         thunar
-        mullvad-vpn
         keepassxc
         # razer
         polychromatic
         openrazer-daemon
         # chat
         signal-desktop
+        signal-cli
         discord
         # music
         strawberry
         spotify
-        cider
+        lmms
         # ai
         claude-code
         #
@@ -36,11 +39,12 @@
         gimp
         pinta
         cheese
-        superTuxKart
+        supertuxkart
         ani-cli
         termdown
         lukesmithxyz-bible-kjv
         transmission_4-gtk
+        localsend
         # rss
         newsboat
         # file
@@ -49,11 +53,14 @@
         steam
         prismlauncher
         pokemmo-installer
+        zeroad
+        chess-tui
         # ide 
         vscodium
         processing
-        jetbrains.idea-oss
         # cam
         droidcam
+        #
+        unstable.visual-paradigm-ce
     ];
 }

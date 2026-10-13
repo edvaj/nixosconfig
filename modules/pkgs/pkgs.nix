@@ -7,5 +7,6 @@
     ./config/theme.nix
     ./config/ui.nix
     ./config/utility.nix
+    ./config/unstableOverlay.nix
   ];
 }

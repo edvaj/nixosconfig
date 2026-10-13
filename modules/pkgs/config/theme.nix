@@ -4,6 +4,7 @@
     papirus-icon-theme
     papirus-folders
     adwaita-icon-theme
-    gruvbox-gtk-theme
+    gruvbox-dark-gtk
+    whitesur-gtk-theme
   ];
 }

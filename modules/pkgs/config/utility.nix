@@ -4,9 +4,11 @@
     home-manager
     # vim things
     vim
+    # clip
     wl-clipboard
     #
     usbutils
+    pandoc
     imagemagick
     zip
     micro
@@ -28,6 +30,9 @@
     unzip
     git
     icloudpd
+    ffmpeg
+    sox
+    poppler-utils
     # printer
     hplipWithPlugin
     # flash

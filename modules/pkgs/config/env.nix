@@ -5,5 +5,13 @@
     python3
     # java
     jdk25
+    # rust
+    rustc
+    cargo
+    rust-analyzer
+    #js
+    nodejs
+    # github
+    gh
   ];
 }
